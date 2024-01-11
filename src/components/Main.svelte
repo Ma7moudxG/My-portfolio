@@ -109,7 +109,7 @@
         <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
             I am . . .
         </p>
-        <div class="flex flex-col gap-28 w-full mx-auto max-w-[800px">
+        <div class="flex flex-col gap-28 w-full mx-auto max-w-[800px]">
             {#each benefits as benefit, index}
                 <div class="flex gap-6 sm:gap-8">
                     <p class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold">
