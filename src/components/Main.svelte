@@ -2,9 +2,9 @@
     import Step from "./Step.svelte";
     
     let steps = [
-        {name: 'Smoljames Store', icon: 'fa-solid fa-cart-shopping'},
-        {name: 'Ultimate Todos', icon: 'fa-solid fa-list-check'},
-        {name: 'Pokedex', icon: 'fa-solid fa-diagram-project'},
+        {name: 'Fruits Store', icon: 'fa-solid fa-cart-shopping'},
+        {name: 'Rent A Bike', icon: 'fa-solid fa-bike'},
+        // {name: 'Pokedex', icon: 'fa-solid fa-diagram-project'},
     ]
 
     let benefits = [
@@ -32,7 +32,7 @@
     <section id="interoPage" class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
         <div class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins text-amber-400">Mahmoud</span> Mahran<br /> Front End <span class="poppins text-violet-400">Developer</span>
+                Hi! I'm <br /><span class="poppins text-amber-400">Mahmoud</span> Mahran<br /> Front End <span class="poppins text-violet-400">Developer</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl ">
                 My <span class="text-amber-400">favourite tach</span> includes JavaScript (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express & PostgreSQL or Firebase/Firestore!
@@ -68,11 +68,11 @@
         </a> -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
-                <p>Somljames Store is a merchandising store created with
+                <p>Fruits Store is a merchandising store created with
                     <strong class="text-violet-400">
-                        Next.js, Commerce.js Stripe Node.js + Express.js!
+                        Next.js, Stripe, Node.js + Express.js!
                     </strong>
-                    Commerce.js is a product CMS and Stripe is used for all transaction handling
+                    Explore all kind of fresh fruits and finish your order in the smallest steps possible
                 </p>
             </Step>
             <Step step={steps[1]}>
