@@ -76,15 +76,14 @@
                 </p>
             </Step>
             <Step step={steps[1]}>
-                <p>Ultimate Todos is a full Stack
+                <p>Rent A Bike is a full Stack
                     <strong class="text-violet-400">
-                        Next.js, Node.js + Express.js & Firebase!
+                        Next.js, Node.js + MongoDB & TailwindCSS!
                     </strong>
-                    CRUD application that allows a user to login, manage a tidy and effications 
-                    todo list, and persist this information across all devices 
+                    Application that allows a user to login as a seller or a client, handle products and authentication and much more...
                 </p>
             </Step>
-            <Step step={steps[2]}>
+            <!-- <Step step={steps[2]}>
                 <p>The Pokédex is a <strong class="text-violet-400"
                     >SvelteKit & TailwindCSS</strong
                 >
@@ -94,7 +93,7 @@
                 <strong class="text-violet-400">Pokémon API</strong>
                 to display all Pokémon information. Gotta catch them all!
                 </p>
-            </Step>
+            </Step> -->
         </div>
     </section>
 
