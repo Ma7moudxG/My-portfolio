@@ -12,10 +12,10 @@
     <slot />
 
     <div class="flex-1 flex justify-between gap-4 items-center">
-        <div class="ml-auto cursor-pointer hover:text-slate-950 duration-200 
+        <div class="ml-auto  hover:text-slate-950 duration-200 
         relative after:absolute after:top-0 after:bg-white after:right-full after:w-full 
         after:h-full after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden ">
-            <p class="relative z-4">Go to &rarr; </p>
+            <a href={step.link} class=" cursor-pointer relative z-4">Live Demo &rarr; </a>
         </div>
     </div>
 </a>

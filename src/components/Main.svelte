@@ -2,8 +2,14 @@
     import Step from "./Step.svelte";
     
     let steps = [
-        {name: 'Fruits Store', icon: 'fa-solid fa-cart-shopping'},
-        {name: 'Rent A Bike', icon: 'fa-solid fa-bike'},
+        {name: 'Fruits Store', 
+            icon: 'fa-solid fa-cart-shopping', 
+            link: 'https://fruits-store-app.netlify.app/', 
+            git: 'https://github.com/Ma7moudxG/rent--a-bike'},
+        {name: 'Rent A Bike', 
+            icon: 'fa-solid fa-bicycle', 
+            link: 'https://rent-a-bike-production.up.railway.app/', 
+            git:'https://github.com/Ma7moudxG/fruits-shop'},
         // {name: 'Pokedex', icon: 'fa-solid fa-diagram-project'},
     ]
 
@@ -66,7 +72,7 @@
             <i class="fa-regular fa-circle-play"></i>
             <p>Watch the video</p>
         </a> -->
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>Fruits Store is a merchandising store created with
                     <strong class="text-violet-400">
