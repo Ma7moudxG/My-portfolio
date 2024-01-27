@@ -15,7 +15,16 @@
         <div class="ml-auto  hover:text-slate-950 duration-200 
         relative after:absolute after:top-0 after:bg-white after:right-full after:w-full 
         after:h-full after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden ">
-            <a href={step.link} class=" cursor-pointer relative z-4">Live Demo &rarr; </a>
+            <a href={step.link} 
+                target="_blank"
+                class=" cursor-pointer relative z-4">Live Demo &rarr; </a>
+        </div>
+        <div class="ml-auto  hover:text-slate-950 duration-200 
+        relative after:absolute after:top-0 after:bg-white after:right-full after:w-full 
+        after:h-full after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden ">
+            <a href={step.git} 
+                target="_blank"
+                class=" cursor-pointer relative z-4">GitHub &rarr; </a>
         </div>
     </div>
 </a>
