@@ -2,6 +2,10 @@
     import Step from "./Step.svelte";
     
     let steps = [
+        {name: 'Amino Gym', 
+            icon: 'fa-solid fa-dumbbell', 
+            link: 'https://amino-gym.netlify.app/', 
+            git: 'https://github.com/Ma7moudxG/amino-gym'},
         {name: 'Fruits Store', 
             icon: 'fa-solid fa-cart-shopping', 
             link: 'https://fruits-store-app.netlify.app/', 
@@ -68,12 +72,17 @@
                 Curious to <span class="poppins text-amber-400">see</span> my work?
             </h3>
         </div>
-        <!-- <a href="#" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
-            <i class="fa-regular fa-circle-play"></i>
-            <p>Watch the video</p>
-        </a> -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-10">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
+                <p>Amino Gym is a Planner for your gym workout, Made with
+                    <strong class="text-violet-400">
+                        Next.js, Vite, React.JS + TailwindCSS!
+                    </strong>
+                    From all workouts splits, pick your poison, targetted muscles, and your ultimate objctive, and the workout plan will be there for you. 
+                </p>
+            </Step>
+            <Step step={steps[1]}>
                 <p>Fruits Store is a merchandising store created with
                     <strong class="text-violet-400">
                         Next.js, Stripe, Node.js + Express.js!
@@ -81,7 +90,7 @@
                     Explore all kind of fresh fruits and finish your order in the smallest steps possible
                 </p>
             </Step>
-            <Step step={steps[1]}>
+            <Step step={steps[2]}>
                 <p>Rent A Bike is a full Stack
                     <strong class="text-violet-400">
                         Next.js, Node.js + MongoDB & TailwindCSS!
