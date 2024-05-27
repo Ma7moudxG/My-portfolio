@@ -9,11 +9,11 @@
         {name: 'Fruits Store', 
             icon: 'fa-solid fa-cart-shopping', 
             link: 'https://fruits-store-app.netlify.app/', 
-            git: 'https://github.com/Ma7moudxG/rent--a-bike'},
+            git: 'https://github.com/Ma7moudxG/fruits-shop'},
         {name: 'Rent A Bike', 
             icon: 'fa-solid fa-bicycle', 
             link: 'https://rent-a-bike-production.up.railway.app/', 
-            git:'https://github.com/Ma7moudxG/fruits-shop'},
+            git:'https://github.com/Ma7moudxG/rent--a-bike'},
         // {name: 'Pokedex', icon: 'fa-solid fa-diagram-project'},
     ]
 
