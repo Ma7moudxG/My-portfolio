@@ -87,11 +87,11 @@
         
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
-                <p>React Admin Dashboard, Made with
+                <p>React Admin Full Dashboard, Made with
                     <strong class="text-violet-400">
                        React, Material UI, echarts, FullCalendar,Data Grid
                     </strong>
-                    it consists of 4 different Charts, 3 different Data Table Pages, FAQ Page, Form Page, and Calendar Integration. 
+                    it consists of 4 different Charts, Profiles, Products, 3 different Data Table Pages, FAQ Page, Form Page, and Calendar Integration. 
                 </p>
             </Step>
             <Step step={steps[1]}>
