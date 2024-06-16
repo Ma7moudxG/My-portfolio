@@ -57,7 +57,7 @@
                 Hi! I'm <br /><span class="poppins text-amber-400">Mahmoud</span> Mahran<br /> Front End <span class="poppins text-violet-400">Developer</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl ">
-                My <span class="text-amber-400">favourite tach</span> includes JavaScript (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express & PostgreSQL or Firebase/Firestore!
+                My <span class="text-amber-400">favourite tech</span> includes JavaScript (NEXT.JS or Reat JS), TailwindCSS, Express & PostgreSQL or Firebase!
             </p>
 
             <a class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins 
