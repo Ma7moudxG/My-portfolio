@@ -6,7 +6,7 @@
             icon: 'fa-solid fa-chart-line', 
             link: 'https://react-dashboard22.netlify.app/', 
             git: 'https://github.com/Ma7moudxG/react-admin2'},
-        {name: 'Freescribe - Transcribe and translate', 
+        {name: 'Freescribe', 
             icon: 'fa-solid fa-language', 
             link: 'https://app.netlify.com/sites/freescribe-react/', 
             git: 'https://github.com/Ma7moudxG/freescribe'},
