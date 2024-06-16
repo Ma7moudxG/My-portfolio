@@ -114,7 +114,6 @@
                     <strong class="text-violet-400">
                         Reactjs, JavaScript, tailwindCSS
                     </strong>
-                    From all workouts splits, pick your poison, targetted muscles, and your ultimate objctive, and the workout plan will be there for you. 
                 </p>
             </Step>
             <Step step={steps[4]}>
