@@ -2,10 +2,22 @@
     import Step from "./Step.svelte";
     
     let steps = [
+        {name: 'Admin Dashbard', 
+            icon: 'fa-solid fa-chart-line', 
+            link: 'https://react-dashboard22.netlify.app/', 
+            git: 'https://github.com/Ma7moudxG/react-admin2'},
+        {name: 'Freescribe - Transcribe and translate', 
+            icon: 'fa-solid fa-language', 
+            link: 'https://app.netlify.com/sites/freescribe-react/', 
+            git: 'https://github.com/Ma7moudxG/freescribe'},
         {name: 'Amino Gym', 
             icon: 'fa-solid fa-dumbbell', 
             link: 'https://amino-gym.netlify.app/', 
             git: 'https://github.com/Ma7moudxG/amino-gym'},
+        {name: 'React NASA App', 
+            icon: 'fa-solid fa-user-astronaut', 
+            link: 'https://nasa-react-app-22.netlify.app/', 
+            git: 'https://github.com/Ma7moudxG/react-nasa-app'},
         {name: 'Fruits Store', 
             icon: 'fa-solid fa-cart-shopping', 
             link: 'https://fruits-store-app.netlify.app/', 
@@ -75,6 +87,21 @@
         
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
+                <p>React Admin Dashboard, Made with
+                    <strong class="text-violet-400">
+                       React, Material UI, echarts, FullCalendar,Data Grid
+                    </strong>
+                    it consists of 4 different Charts, 3 different Data Table Pages, FAQ Page, Form Page, and Calendar Integration. 
+                </p>
+            </Step>
+            <Step step={steps[1]}>
+                <p>Either you will record your voice, or upload an audio file to the website, you can Transcribe it, translate to any language you want, copy it to clipboard or download it in a file, Made with
+                    <strong class="text-violet-400">
+                        Reactjs, JavaScript, tailwindCss
+                    </strong>
+                </p>
+            </Step>
+            <Step step={steps[2]}>
                 <p>Amino Gym is a Planner for your gym workout, Made with
                     <strong class="text-violet-400">
                         Next.js, Vite, React.JS + TailwindCSS!
@@ -82,7 +109,15 @@
                     From all workouts splits, pick your poison, targetted muscles, and your ultimate objctive, and the workout plan will be there for you. 
                 </p>
             </Step>
-            <Step step={steps[1]}>
+            <Step step={steps[3]}>
+                <p>It is an app that shows a new wallpaper from NASA and their explorations, and you can know more info about this photo, Made with
+                    <strong class="text-violet-400">
+                        Reactjs, JavaScript, tailwindCSS
+                    </strong>
+                    From all workouts splits, pick your poison, targetted muscles, and your ultimate objctive, and the workout plan will be there for you. 
+                </p>
+            </Step>
+            <Step step={steps[4]}>
                 <p>Fruits Store is a merchandising store created with
                     <strong class="text-violet-400">
                         Next.js, Stripe, Node.js + Express.js!
@@ -90,14 +125,14 @@
                     Explore all kind of fresh fruits and finish your order in the smallest steps possible
                 </p>
             </Step>
-            <Step step={steps[2]}>
+            <!-- <Step step={steps[5]}>
                 <p>Rent A Bike is a full Stack
                     <strong class="text-violet-400">
                         Next.js, Node.js + MongoDB & TailwindCSS!
                     </strong>
                     Application that allows a user to login as a seller or a client, handle products and authentication and much more...
                 </p>
-            </Step>
+            </Step> -->
             <!-- <Step step={steps[2]}>
                 <p>The Pokédex is a <strong class="text-violet-400"
                     >SvelteKit & TailwindCSS</strong
