@@ -8,7 +8,7 @@
             git: 'https://github.com/Ma7moudxG/react-admin2'},
         {name: 'Freescribe', 
             icon: 'fa-solid fa-language', 
-            link: 'https://app.netlify.com/sites/freescribe-react/', 
+            link: 'https://freescribe-react.netlify.app/', 
             git: 'https://github.com/Ma7moudxG/freescribe'},
         {name: 'Amino Gym', 
             icon: 'fa-solid fa-dumbbell', 
