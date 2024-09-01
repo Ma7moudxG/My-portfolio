@@ -54,10 +54,10 @@
     <section id="interoPage" class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
         <div class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! I'm <br /><span class="poppins text-amber-400">Mahmoud</span> Mahran<br /> Front End <span class="poppins text-violet-400">Developer</span>
+                Hi! I'm <br /><span class="poppins text-amber-400">Mahmoud</span> Mahran<br /> Software <span class="poppins text-violet-400">Developer</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl ">
-                My <span class="text-amber-400">favourite tech</span> includes JavaScript (NEXT.JS or Reat JS), TailwindCSS, Express & PostgreSQL or Firebase!
+                My <span class="text-amber-400">favourite tech</span> includes Ruby on Rails,React JS, NEXT.JS , TailwindCSS, Express & PostgreSQL or Firebase!
             </p>
 
             <a class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins 
