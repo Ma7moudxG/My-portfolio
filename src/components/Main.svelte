@@ -140,14 +140,14 @@
                     </strong>
                 </p>
             </Step>
-            <Step step={steps[6]}>
+            <!-- <Step step={steps[6]}>
                 <p>Fruits Store is a merchandising store created with
                     <strong class="text-violet-400">
                         Next.js, Stripe, Node.js + Express.js!
                     </strong>
                     Explore all kind of fresh fruits and finish your order in the smallest steps possible
-                </p>
-            </Step>
+                </p> 
+            </Step> -->
             <!-- <Step step={steps[5]}>
                 <p>Rent A Bike is a full Stack
                     <strong class="text-violet-400">
