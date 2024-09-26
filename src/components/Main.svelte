@@ -2,6 +2,14 @@
     import Step from "./Step.svelte";
     
     let steps = [
+        {name: 'Patients Appointments system', 
+            icon: 'fa-solid fa-user-doctor', 
+            link: 'https://mycare-git-main-ma7moudxgs-projects.vercel.app/', 
+            git: 'https://github.com/Ma7moudxG/mycare'},
+        {name: 'Broodl - Mood record calendar', 
+            icon: 'fa-solid fa-face-smile-wink', 
+            link: 'https://broodl-next.netlify.app/', 
+            git: 'https://github.com/Ma7moudxG/broodl'},
         {name: 'Admin Dashbard', 
             icon: 'fa-solid fa-chart-line', 
             link: 'https://react-dashboard22.netlify.app/', 
@@ -87,6 +95,22 @@
         
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
+                <p>Patients Appointments system, Made with
+                    <strong class="text-violet-400">
+                       NextJS 14, ReactJS, Tailwind CSS, Appwrite
+                    </strong>
+                    The patients can register their information and select the appointments, The hospital can review the appointments and schedule or cancel it. 
+                </p>
+            </Step>
+            <Step step={steps[1]}>
+                <p>Broodl - Mood record calendar, Made with
+                    <strong class="text-violet-400">
+                       NextJS 14, ReactJS, Tailwind CSS, Firebase
+                    </strong>
+                    After Siging up: Create your mood record and see how you feel on every day of every year.
+                </p>
+            </Step>
+            <Step step={steps[2]}>
                 <p>React Admin Full Dashboard, Made with
                     <strong class="text-violet-400">
                        React, Material UI, echarts, FullCalendar,Data Grid
@@ -94,14 +118,14 @@
                     it consists of 4 different Charts, Profiles, Products, 3 different Data Table Pages, FAQ Page, Form Page, and Calendar Integration. 
                 </p>
             </Step>
-            <Step step={steps[1]}>
+            <Step step={steps[3]}>
                 <p>Either you will record your voice, or upload an audio file to the website, you can Transcribe it, translate to any language you want, copy it to clipboard or download it in a file, Made with
                     <strong class="text-violet-400">
                         Reactjs, JavaScript, tailwindCss
                     </strong>
                 </p>
             </Step>
-            <Step step={steps[2]}>
+            <Step step={steps[4]}>
                 <p>Amino Gym is a Planner for your gym workout, Made with
                     <strong class="text-violet-400">
                         Next.js, Vite, React.JS + TailwindCSS!
@@ -109,14 +133,14 @@
                     From all workouts splits, pick your poison, targetted muscles, and your ultimate objctive, and the workout plan will be there for you. 
                 </p>
             </Step>
-            <Step step={steps[3]}>
+            <Step step={steps[5]}>
                 <p>It is an app that shows a new wallpaper from NASA and their explorations, and you can know more info about this photo, Made with
                     <strong class="text-violet-400">
                         Reactjs, JavaScript, tailwindCSS
                     </strong>
                 </p>
             </Step>
-            <Step step={steps[4]}>
+            <Step step={steps[6]}>
                 <p>Fruits Store is a merchandising store created with
                     <strong class="text-violet-400">
                         Next.js, Stripe, Node.js + Express.js!
